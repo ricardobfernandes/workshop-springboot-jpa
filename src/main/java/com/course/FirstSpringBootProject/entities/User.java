@@ -29,7 +29,7 @@ public class User implements Serializable {
 	
 	@JsonIgnore
 	@OneToMany(mappedBy = "client")
-	private List<Order> orders = new ArrayList<>(); //associação 1 para muitos
+	private List<Order> orders = new ArrayList<>(); // associação 1 para muitos
 	
 	public User() {
 	}
